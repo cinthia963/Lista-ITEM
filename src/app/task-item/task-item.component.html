@@ -1,0 +1,4 @@
+<div [ngClass]="{reminder:clase.reminder}" class="clase" (dblclick)="onToggle(clase)">
+    <h3>{{ clase.text }}<fa-icon (click)="onDelete(clase)" [ngStyle]= "{'color': 'blue'}"[icon]="faTimes"></fa-icon></h3>
+    <p>{{ clase.day }}</p>
+</div>

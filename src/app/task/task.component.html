@@ -1,0 +1,4 @@
+<app-addtask (onAddTask)="addTask($event)"></app-addtask>
+<app-task-item *ngFor= "let prueba of task" [clase]="prueba" 
+(onDeleteclase)="deleteclase(prueba)" 
+(onToggleReminder)="toggleReminder(prueba)"></app-task-item>

@@ -1,0 +1,17 @@
+.clase{
+    background: #97e4ddda;
+    margin: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .clase.reminder {
+    border-left: 5px solid rgb(214, 14, 131);
+  }
+  
+  .clase h3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
